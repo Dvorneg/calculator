@@ -94,7 +94,7 @@ public class Main {
         return 0;
     }
 
-    public static String arabicToRoman(int num)
+    private static String arabicToRoman(int num)
     {
         if (num<1) {
             throw new UnsupportedOperationException("Итоговое римское число меньше единицы!");
